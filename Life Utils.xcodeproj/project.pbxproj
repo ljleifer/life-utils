@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9412ADBF2B485BDF00C0906F /* Life_UtilsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412ADBE2B485BDF00C0906F /* Life_UtilsApp.swift */; };
-		9412ADC12B485BDF00C0906F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412ADC02B485BDF00C0906F /* ContentView.swift */; };
 		9412ADC32B485BE000C0906F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9412ADC22B485BE000C0906F /* Assets.xcassets */; };
 		9412ADC62B485BE000C0906F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9412ADC52B485BE000C0906F /* Preview Assets.xcassets */; };
+		94F4A71A2B5021CB0091166A /* RandomNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F4A7192B5021CB0091166A /* RandomNumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9412ADBB2B485BDF00C0906F /* Life Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Utils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9412ADBE2B485BDF00C0906F /* Life_UtilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_UtilsApp.swift; sourceTree = "<group>"; };
-		9412ADC02B485BDF00C0906F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9412ADC22B485BE000C0906F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9412ADC52B485BE000C0906F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94F4A7192B5021CB0091166A /* RandomNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				9412ADBE2B485BDF00C0906F /* Life_UtilsApp.swift */,
-				9412ADC02B485BDF00C0906F /* ContentView.swift */,
+				94F4A7192B5021CB0091166A /* RandomNumberView.swift */,
 				9412ADC22B485BE000C0906F /* Assets.xcassets */,
 				9412ADC42B485BE000C0906F /* Preview Content */,
 			);
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9412ADC12B485BDF00C0906F /* ContentView.swift in Sources */,
 				9412ADBF2B485BDF00C0906F /* Life_UtilsApp.swift in Sources */,
+				94F4A71A2B5021CB0091166A /* RandomNumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
